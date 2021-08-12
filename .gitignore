@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-1-tinder_clone/node_modules
+tinder-frontend/node_modules
 .pnp
 .pnp.js
 tinder-backend/node_modules
@@ -9,10 +9,10 @@ tinder-backend/.git
 tinder-backend/.env
 
 # testing
-/1-tinder_clone/coverage
+tinder-frontend/coverage
 
 # production
-/1-tinder_clone/build
+tinder-frontend/build
 
 # misc
 .DS_Store
