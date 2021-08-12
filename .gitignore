@@ -23,5 +23,5 @@ tinder-frontend/build
 .env.production.local
 
 npm-debug.log*
-yarn-debug.mv: cannot move 'tinder-deployable/' to '../tinder-deployable': Directory not emptylog*
+yarn-debug.mv:log*
 yarn-error.log*
