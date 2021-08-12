@@ -16,7 +16,7 @@ This is the clone of a dating app, Tinder.
 
 ## Contents:
 
-- `1-tinder-clone` folder contains the React modules.
+- `tinder-frontend` folder contains the React modules.
 - `tinder-backend` consists of the server and database connection files.
 
 ## Objective:
