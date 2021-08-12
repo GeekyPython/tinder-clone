@@ -6,7 +6,6 @@
 .pnp.js
 tinder-backend/node_modules
 tinder-backend/.git
-tinder-backend/.env
 # testing
 /1-tinder_clone/coverage
 
