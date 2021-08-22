@@ -19,7 +19,7 @@ const connection_url = process.env.CONNECTION_URI;
 
 //Middleware
 app.use(express.json());
-app.use(express.static("../1-tinder_clone/build"));
+app.use(express.static("../tinder-frontend/build"));
 app.use(cors());
 
 //DB Config
@@ -31,7 +31,7 @@ mongoose.connect(connection_url,{
 
 //API Endpoint
 app.get('/', (req,res) => {
-    res.status(200).sendFile('../1-tinder_clone/build/index.html');
+    res.status(200).sendFile('../tinder-frontend/build/index.html');
 });
 
 

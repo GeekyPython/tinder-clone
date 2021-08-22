@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "backend for 1-tinder-clone",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "nodemon server.js"
   },
